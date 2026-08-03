@@ -1,0 +1,4 @@
+Fix: restored the original single-WebView popup/navigation behavior.
+This removes the custom invisible child WebView handling that caused Flight and Hotel to open as blank white screens.
+App remains in normal mobile WebView mode; desktop mode is not enabled.
+Version: 1.0.2 (3)

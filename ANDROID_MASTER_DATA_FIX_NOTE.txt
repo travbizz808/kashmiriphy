@@ -1,0 +1,7 @@
+Odyssey Android CRM v1.0.5
+
+Fix:
+- Removed the Android-injected master-import DOM/CSS compatibility layer.
+- The CRM website JavaScript is again the only source of truth for master search and rendering.
+- Version bumped to 1.0.5 (code 6), so WebView cache clears once after update.
+- Existing login, upload, download, PDF and navigation behaviour is preserved.

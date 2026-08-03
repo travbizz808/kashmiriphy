@@ -1,0 +1,8 @@
+Odyssey Android CRM sync update (03 Aug 2026)
+
+- Synced Android WebView behaviour with the latest CRM master-import updates.
+- Import from Master remains visible for supported services on mobile.
+- Master result modal uses a dedicated internal vertical scroller on mobile, tablet and desktop-sized WebViews.
+- Clicking outside the master-import modal closes it.
+- App version bumped to 1.0.4 (versionCode 5) so WebView cache is cleared once after update.
+- Existing PDF download, login, file upload and navigation logic preserved.

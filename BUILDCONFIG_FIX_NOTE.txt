@@ -1,0 +1,1 @@
+Fix: Enabled Android BuildConfig generation so MainActivity can use BuildConfig.VERSION_CODE during compilation.

@@ -1,0 +1,15 @@
+GitHub Actions APK build fix
+
+Changed:
+- Explicit Gradle 8.9 installation added.
+- JDK 17 retained.
+- Stacktrace enabled for readable build errors.
+- APK artifact validation enabled.
+- Existing Android app source and mobile API behavior unchanged.
+
+Upload the complete project contents to the repository root. The repository root must contain:
+app/
+build.gradle
+settings.gradle
+gradle.properties
+.github/workflows/build-apk.yml

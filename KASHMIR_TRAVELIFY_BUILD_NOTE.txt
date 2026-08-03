@@ -1,0 +1,6 @@
+Kashmir Travelify CRM Android app
+Start URL: https://crm.kashmirtravelify.com/newcrm/
+Application ID: com.kashmirtravelify.crm
+App name: Kashmir Travelify CRM
+Brand image is used for launcher icon and startup splash screen.
+Open this project in Android Studio and build the APK using Build > Build APK(s).

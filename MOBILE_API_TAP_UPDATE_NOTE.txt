@@ -1,0 +1,11 @@
+Odyssey Android mobile Live API update
+
+Version: 1.0.3 (versionCode 4)
+
+Changes:
+- Normal mobile WebView only; no desktop mode.
+- Keeps Flight/Hotel API navigation in the main WebView.
+- Disables custom/multiple popup WebViews.
+- Clears stale WebView cache once after installing this version so the latest website popup.php/header.php/CSS behaviour loads.
+- Does not clear login cookies.
+- No Transfer or other service logic changed.
