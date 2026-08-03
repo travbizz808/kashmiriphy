@@ -1,0 +1,13 @@
+KASHMIR TRAVELIFY CRM - GITHUB APK BUILD
+
+1. Upload the CONTENTS of this project to the repository root.
+2. Confirm this exact file exists:
+   .github/workflows/main.yml
+3. Keep the default branch name as: main
+4. Open GitHub > Actions > Build Kashmir Travelify CRM APK.
+5. Run the workflow, or push any file to the main branch.
+6. After success, download artifact: Kashmir-Travelify-CRM-APK
+
+App branding: Kashmir Travelify CRM
+Package ID: com.kashmirtravelify.crm
+CRM URL: https://crm.kashmirtravelify.com/newcrm/
