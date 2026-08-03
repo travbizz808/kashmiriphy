@@ -1,13 +1,13 @@
-# Odyssey Travels India CRM Android App
+# Kashmir Travelify CRM Android App
 
-Android WebView app for:
+Simple Android WebView frame app for:
 
-`https://crm.odysseytravelsindia.com/login`
+`https://crm.kashmirtravelify.com/newcrm/`
 
 ## Included
 
-- Direct Odyssey CRM login launch
-- No custom delayed splash screen
+- No custom splash activity or delayed splash screen
+- Android 12+ mandatory system launch screen reduced to a transparent/instant appearance
 - Zoom and pinch zoom disabled
 - Smooth hardware-accelerated WebView scrolling
 - Login cookies and session retained
@@ -18,33 +18,27 @@ Android WebView app for:
 - Network error screen with Retry button
 - Adaptive Android launcher icon
 
-## Android configuration
-
-- Package / Application ID: `com.odysseytravelsindia.crm`
-- Minimum Android: API 24 (Android 7.0)
-- Target Android: API 35
-- Version: `1.0.3`
-
 ## Build APK on GitHub
 
-1. Create a GitHub repository and upload this project to the repository root.
-2. Open **Actions** > **Build Android APK**.
-3. Run the workflow.
-4. Download the artifact named **odyssey-travels-india-crm-apk**.
-5. Extract it to get `app-debug.apk`.
+1. Create a new GitHub repository.
+2. Upload all files from this project to the repository root.
+3. Open **Actions** > **Build Android APK**.
+4. Click **Run workflow**.
+5. After completion, open the workflow run and download the artifact named **kashmir-travelify-crm-apk**.
+6. Extract it to get `app-debug.apk`.
 
-The workflow also runs automatically after a push to `main`.
+The workflow also runs automatically after a push to `main` or `master`.
 
-## Main app URL
+## Change URL
 
-The CRM URL is defined in:
+Edit:
 
-`app/src/main/java/com/odysseytravelsindia/crm/MainActivity.java`
+`app/src/main/java/com/kashmirtravelify/crm/MainActivity.java`
 
+Change the `HOME_URL` value.
 
-## Mobile Live API update
+## Change app name
 
-- Uses the normal mobile WebView user agent; desktop mode is not enabled.
-- Flight and Hotel Live API taps use the website's final mobile implementation.
-- Multiple WebView windows/custom popup WebViews remain disabled.
-- On the first launch after this app update, old WebView CSS/JavaScript cache is cleared once. Login cookies are not removed.
+Edit `android:label` in:
+
+`app/src/main/AndroidManifest.xml`
